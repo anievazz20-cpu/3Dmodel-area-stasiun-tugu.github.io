@@ -1,9 +1,9 @@
 // main.js
 
-import { accessToken } from "./js/CesiumConfig.js";
-import { data } from "./js/data.js";
-import { createSelectElement } from "./js/DropDown.js";
-import { chooseAndLoadData } from "./js/cesiumdataselect.js";
+import { accessToken } from "./CesiumConfig.js";
+import { data } from "./data.js";
+import { createSelectElement } from "./DropDown.js";
+import { chooseAndLoadData } from "./cesiumdataselect.js";
 
 Cesium.Ion.defaultAccessToken = accessToken;
 
